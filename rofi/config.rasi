@@ -67,11 +67,6 @@ element.alternate.normal {
   background-color: transparent;  
 }
 
-element.selected.active {
-    background-color: #fabd2f;  
-    text-color: #665c54;        
-}
-
 element urgent {
     background-color: #b8bb26;  
     text-color: #282828;        
@@ -98,5 +93,5 @@ button {
 
 button selected {
   background-color: @gruvbox-dark-yellow-dark;
-  text-color: @gruvbox-dark-fg0;
+  text-color: #282828;
 }
