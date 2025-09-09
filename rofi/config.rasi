@@ -1,0 +1,102 @@
+configuration {
+  font: "Fira Code 11";
+  modes: "window,drun,ssh,filebrowser";
+  show-icons: true;
+  combi-modes: "window,run";  
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+@theme "gruvbox-dark"
+
+window {
+  border-radius: 20px;
+  border: 1px;
+  width: var( width, 30%);
+}
+
+mainbox {
+  children: [inputbar, listview, mode-switcher];
+}
+
+element-icon {
+  padding : 0px 15px 0px 0px;
+}
+
+inputbar {
+  padding: 8px 4px;
+  margin: 2px 0px;
+}
+
+prompt {
+  text-color: #b8bb26;  
+  padding: 0px 4px 0px 4px;
+  border-radius: 1em;
+}
+
+listview {
+  border: none;
+  spacing: 5px;
+  lines: 10;
+  columns: 1;
+}
+
+
+scrollbar {
+  handle-width: 0.3em;
+}
+
+element {
+  padding: 0px 8px;
+  background-color: transparent;
+  text-color: #a89984;        
+}
+
+element.normal {
+  background-color: transparent;
+  text-color: #a89984;       
+}
+
+element.alternate.normal {
+  background-color: transparent;  
+}
+
+element.selected.active {
+    background-color: #fabd2f;  
+    text-color: #665c54;        
+}
+
+element urgent {
+    background-color: #b8bb26;  
+    text-color: #282828;        
+}
+
+element active {
+  background-color: #665c54;   
+  text-color: #fabd2f;         
+}
+
+mode-switcher {
+  enabled: true;
+  spacing: 8px;               
+  padding: 4px;
+  border: none;
+}
+
+button {
+  padding: 4px 10px;
+  border-radius: 1em;
+  text-color: @gruvbox-dark-fg1;
+  background-color: transparent;
+}
+
+button selected {
+  background-color: @gruvbox-dark-yellow-dark;
+  text-color: @gruvbox-dark-fg0;
+}
