@@ -27,7 +27,7 @@ To set up your system with these dotfiles, follow these steps:
 1. **Clone the repository**
 
 ```bash
-git clone git@github.com:y4nder/ydotfiles.git
+git clone git@github.com:y4nder/dotfiles.git
 ```
 
 2. **Navigate to the repository**
