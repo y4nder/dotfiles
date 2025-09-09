@@ -18,7 +18,9 @@ Currently tracked configs:
 
 ![Demo Apps](assets/demo-apps.png)
 
-![Demo Apps](assets/application-switcher.png)
+| ![Switcher](assets/demo-application-switcher.png) | ![Emojis](assets/demo-emojis.png) | ![Clipboard](assets/demo-clipboard.png) |
+|:-----------------------------------------------:|:--------------------------------:|:------------------------------------:|
+
 ---
 
 
