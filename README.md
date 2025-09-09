@@ -17,6 +17,8 @@ Currently tracked configs:
 ![Demo Wallpaper](assets/demo-wallpaper.png)
 
 ![Demo Apps](assets/demo-apps.png)
+
+![Demo Apps](assets/application-switcher.png)
 ---
 
 
