@@ -16,6 +16,9 @@ FILES_TO_LINK=(
   "$DOTFILES_DIR/spicetify:$HOME/.config/spicetify"
   "$DOTFILES_DIR/neofetch:$HOME/.config/neofetch"
   "$DOTFILES_DIR/themes:$HOME/.themes"
+
+  # Rofi Script mapping
+  "$DOTFILES_DIR/rofi/scripts/config/rofi-gpaste.conf:$HOME/.config/rofi-gpaste.conf"
 )
 
 # ==============================
