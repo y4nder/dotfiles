@@ -29,5 +29,3 @@ These configs focus on a clean, fast workflow and are optimized for **Omarchy**.
 ## Credits
 
 Thanks to [ankur311sudo/gruvu](https://github.com/ankur311sudo/gruvu) for the theming inspiration and the Waybar base that I modified.
-
-test commit bypass
