@@ -1,0 +1,164 @@
+@import "../omarchy/current/theme/waybar.css";
+
+
+* {
+  background-color: transparent;
+  color: @foreground;
+  border: none;
+  border-radius: 16px;
+  min-height: 0;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+.modules-left {
+  margin-left: 2px;
+  padding: 2px 0px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.modules-right {
+  margin-right: 2px;
+  padding: 2 0px;
+}
+
+.modules-center {
+  padding: 2 6px;
+}
+
+
+#workspaces button {
+  all: initial;
+  padding: 0 6px;
+  margin: 0 2px;
+  min-width: 8px;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+#network,
+#pulseaudio,
+#cpu {
+  border-radius: 20px;
+  border: 2px solid @custom_orange; /* added border */
+  background-color: @background;
+  padding: 4 12px;
+  margin-left: 8px;
+}
+
+#clock,
+#custom-screenrecording-indicator,
+#custom-update {
+  border-radius: 20px;
+  border: 2px solid @foreground; /* added border */
+  padding: 4 12px;
+  background-color: @background;
+  margin-right: 6px
+}
+
+#custom-yarchy{
+  border-radius: 20px;
+  border: 2px solid @foreground; /* added border */
+  background-color: @background;
+  color: @foreground; 
+  padding: 4 12px;
+}
+
+#bluetooth,
+#custom-omarchy,
+#custom-screenrecording-indicator{
+  min-width: 12px;
+  padding: 2px;
+  background-color: @background;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+
+tooltip {
+  background: rgba(20, 22, 30, 0.95);
+  color: #cdd6f4;
+  border: 1px solid #89b4fa;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin: 0 8.75px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 5px;
+  font-size: 10px;
+  padding-bottom: 1px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+#custom-spotify-player {
+  border-radius: 20px;
+  background-color: @background;
+  border: 2px solid @foreground;
+  padding: 4 12px;
+  transition: color 0.3s ease;
+}
+
+#custom-spotify-player.playing {
+  color: #8ec07c; /* green */
+}
+
+#custom-spotify-player.paused {
+  color: #fabd2f; /* yellow */
+}
+
+#custom-spotify-player.stopped {
+  color: #a89984; /* gray */
+}
+
+#custom-spotify-player.hidden {
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#workspaces {
+    border-radius: 20px;
+    border: 2px solid @foreground;
+    background-color: @background;
+    margin-right: 8px;
+    padding: 4 12px;
+}
+
+#custom-cava {
+  padding: 2px 14px;
+  font-size: 18px;
+  color: @foreground;
+}
+
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 0 0 7.5px;
+}
+
+#custom-voxtype.recording {
+  color: #a55555;
+}

@@ -1,0 +1,13 @@
+.config/hypr/shaders
+.config/hypr/
+
+# Neovim cache & state
+.config/nvim/.state/
+.config/nvim/.undo/
+.config/nvim/.backup/
+.config/nvim/.swap/
+.config/nvim/.shada
+.config/nvim/.mason/
+
+# Plugin managers
+.config/nvim/plugin/packer_compiled.lua
