@@ -11,3 +11,6 @@
 
 # Plugin managers
 .config/nvim/plugin/packer_compiled.lua
+
+# Qutebrowser
+.config/qutebrowser/__pycache__
