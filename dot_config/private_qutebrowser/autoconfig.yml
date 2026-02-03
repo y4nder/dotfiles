@@ -8,6 +8,8 @@ config_version: 2
 settings:
   colors.tabs.bar.bg:
     global: '#555555'
+  colors.webpage.preferred_color_scheme:
+    global: dark
   content.blocking.method:
     global: auto
   content.headers.user_agent:
@@ -26,8 +28,14 @@ settings:
     global: bottom
   statusbar.show:
     global: always
+  tabs.indicator.width:
+    global: 3
+  tabs.max_width:
+    global: -1
   tabs.position:
-    global: top
+    global: left
+  tabs.show:
+    global: always
   tabs.width:
     global: 8%
   tabs.wrap:
