@@ -1,8 +1,9 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "type": "file",
+    "type": "auto",
     "source": "~/.config/omarchy/branding/about.txt",
+    "width": 1,
     "color": { "1": "green" },
     "padding": {
       "top": 2,
@@ -28,6 +29,12 @@
       "keyColor": "green"
     },
     {
+      "type": "command",
+      "key": "│ ├",
+      "keyColor": "green",
+      "text": "sensors | awk '/Package id 0:/ {print $4; exit}'"
+    },
+    {
       "type": "gpu",
       "key": "│ ├",
       "detectionMethod": "pci",
@@ -47,6 +54,12 @@
       "type": "memory",
       "key": "│ ├",
       "keyColor": "green"
+    },
+    {
+      "type": "command",
+      "key": "│ ├󰓅",
+      "keyColor": "green",
+      "text": "awk '{print $1 \" \" $2 \" \" $3}' /proc/loadavg"
     },
     {
       "type": "swap",
@@ -101,6 +114,12 @@
       "keyColor": "blue"
     },
     {
+      "type": "command",
+      "key": "│ ├󱆃",
+      "keyColor": "blue",
+      "text": "echo \"$SHELL ($( $SHELL --version | head -n1 ))\""
+    },
+    {
       "type": "packages",
       "key": "│ ├󰏖",
       "keyColor": "blue"
@@ -129,6 +148,12 @@
     {
       "type": "custom",
       "format": "\u001b[90m┌────────────────Age / Uptime / Update───────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "󰥔 Time",
+      "keyColor": "magenta",
+      "text": "echo \"$(date '+%H:%M:%S') ($(timedatectl show -p Timezone --value))\""
     },
     {
       "type": "command",
