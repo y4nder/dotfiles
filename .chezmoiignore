@@ -1,5 +1,4 @@
 .config/hypr/shaders
-.config/hypr/
 
 # Neovim cache & state
 .config/nvim/.state/
